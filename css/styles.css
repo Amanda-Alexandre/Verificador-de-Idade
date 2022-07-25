@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+
+
+body {
+    background-color: rgba(209, 209, 209, 0.89);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-transform: uppercase;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#btn{
+    background-color: purple;
+    border: none;
+    color: white;
+    height: 70px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgba(133, 46, 133, 0.979);
+
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(89, 0, 253, 0.521);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    -webkit-box-shadow: 1px 1px 15px 5px rgba(94, 59, 255, 0.67);
+    box-shadow: 1px 1px 15px 5px rgba(94, 59, 255, 0.67);
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    margin-top: 3mm;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#res{
+    font: bold ;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    border: red;
+    text-align:center;
+}
